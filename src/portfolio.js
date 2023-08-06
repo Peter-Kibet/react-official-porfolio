@@ -130,10 +130,10 @@ const educationInfo = {
       logo: require("./assets/images/murple_logo.png"),
       subHeader: "Software Engineering (Web Development)",
       duration: "April 2023 - Present",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Immersed in a rigorous and intensive Full Stack Web Development program, gaining expertise in algorithms, data structures, and cutting-edge tech.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Collaborated with international remote developers through remote pair programming using GitHub and industry-standard git-flow.",
+        "Developed and contributed to real-world projects using Ruby, Rails, JavaScript, React, and Redux."
       ]
     },
     {
@@ -141,8 +141,12 @@ const educationInfo = {
       logo: require("./assets/images/tum-logo.png"),
       subHeader: "Bachelor of Science in Information Technology",
       duration: "September 2019 - April 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Ranked in the top 10% of the program, excelling in courses covering Software Engineering, Web Security, Operating Systems, and more.",
+      descBullets: [
+        "Developed strong foundations in web programming, database management, and mobile programming.",
+        "Acquired skills in networking and software development, gaining valuable industry insights.",
+        "Led a team project that received recognition for innovation and creativity."
+      ]
     }
   ]
 };
@@ -312,10 +316,11 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@peterjamesonsmontana/balancing-code-and-prose-my-adventures-in-development-and-article-writing-adfd0026898d",
+      title:
+        "Balancing Code and Prose: My Adventures in Development and Article Writing",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "The Synergy of Code and Words: My Experience Balancing Development and Writing"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -343,7 +348,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +361,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -370,7 +375,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Peter_Montana_J", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
